@@ -6,7 +6,6 @@ require "active_support/testing/setup_and_teardown"
 require "sidekiq/testing"
 require 'minitest/mock'
 require "mocha/mini_test"
-require "minitest/reporters"
 require "database_cleaner"
 require 'capybara/poltergeist'
 
