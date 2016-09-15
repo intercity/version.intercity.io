@@ -1,0 +1,8 @@
+{
+  "name": "version.intercity.io",
+  "scripts": {
+    "dokku": {
+      "predeploy": "rake db:migrate"
+    }
+  }
+}
