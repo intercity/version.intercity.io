@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   mount Sidekiq::Web => "/sidekiq"
 
   resources :downloads, only: [:index]
+
+  get "check.svg", to: "versions#show"
 end

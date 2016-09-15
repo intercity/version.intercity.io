@@ -9,6 +9,7 @@ gem "jquery-rails"
 gem "turbolinks", "~> 5"
 gem "sidekiq", "~> 4.2"
 gem "sidekiq-cron", "~> 0.4.0"
+gem "version_parser", "1.0.0"
 
 group :development, :test do
   gem "awesome_print"
