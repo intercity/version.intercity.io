@@ -194,6 +194,8 @@ GEM
     turbolinks-source (5.0.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    uglifier (3.0.2)
+      execjs (>= 0.3.0, < 3)
     unicode-display_width (1.1.0)
     web-console (3.3.1)
       actionview (>= 5.0)
@@ -231,6 +233,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
+  uglifier (~> 3.0.2)
   web-console
 
 BUNDLED WITH
