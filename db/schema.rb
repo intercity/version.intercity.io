@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 20160914130533) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "downloads", force: :cascade do |t|
+  create_table "daily_downloads", force: :cascade do |t|
     t.date     "download_date"
     t.integer  "amount"
     t.datetime "created_at",    null: false

@@ -1,5 +1,5 @@
 class DownloadsController < ApplicationController
   def index
-    @downloads = Download.all.sum(:amount)
+    @downloads = DailyDownload.all.sum(:amount)
   end
 end
