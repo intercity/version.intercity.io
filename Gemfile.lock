@@ -197,6 +197,7 @@ GEM
     uglifier (3.0.2)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.1.0)
+    version_parser (1.0.0)
     web-console (3.3.1)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -234,6 +235,7 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
   uglifier (~> 3.0.2)
+  version_parser (= 1.0.0)
   web-console
 
 BUNDLED WITH
