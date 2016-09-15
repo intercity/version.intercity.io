@@ -1,0 +1,3 @@
+fetch_download_counter:
+  cron: "*/15 * * * *"
+  class: "FetchDownloadCounterJob"
