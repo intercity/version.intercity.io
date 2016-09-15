@@ -1,6 +1,6 @@
 class VersionsController < ApplicationController
   def show
-    current_version = "0.2.0"
+    current_version = ENV.fetch("LATEST_IC_VERSION")
     running_version = params[:version] || "0.0.1"
 
     svg = if VersionParser.parse(current_version) > VersionParser.parse(running_version)
